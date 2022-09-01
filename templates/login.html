@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="login-contain">
+            <div class="left-side">
+                <form method="POST" action="">
+                    {{ form.hidden_tag() }}
+                    {{ form.username }}
+                    {{ form.password }}
+                    <button type="submit" id="sbt-btn">Login</button>
+                    <a href="{{url_for('register')}}"><p>Dont have an account?signup</p></a>
+
+                </form>
+            </div>
+
+            <div class="right-side">
+                <div class="welcomenote">
+                    <h3>Welcome</h3>
+                </div>
+                <div class="welcome-img">
+                    <img src="logo" id="wel-img-id" alt="" srcset="" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
