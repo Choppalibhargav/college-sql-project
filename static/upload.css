@@ -1,11 +1,19 @@
-
-.upload{
+div{
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 20px;
-    padding:20rem;
-    margin:auto;
+    margin-bottom: 1rem;
+    gap: 10px;
+
+}
+.upload{
+    padding-top: 20rem;
+}
+
+select{
+    padding: 1rem;
+    border-radius: 10px;
+    border-color: blue;
 }
 
 button{
@@ -15,4 +23,9 @@ button{
     border-radius: 20px;
     border-style: none;
     cursor: pointer;
+}
+
+input{
+    padding: 1rem;
+    border: 1px solid;
 }
